@@ -1,8 +1,132 @@
-<h1>BenevolentMachines.Org</h1>
-<p>We're currently working on restoring the site.  Thank you for your patience. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenevolentMachines.Org</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
 
-</p>
-<p>
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
 
+        header {
+            background: #fff;
+            padding: 20px 0;
+        }
 
-</p>
+        header img {
+            display: block;
+            margin: auto;
+            width: 200px;
+            height: auto;
+        }
+
+        .intro {
+            padding: 40px 0;
+            background: #5385f4;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .intro h1, .intro p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .mission {
+            padding: 40px 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .mission h2 {
+            color: #1ac958;
+        }
+
+        .projects {
+            padding: 20px 0;
+            background: #fff;
+            color: #333;
+        }
+
+        .project {
+            background: #db5d51;
+            color: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+        }
+
+        .project h3 {
+            color: #fac828;
+        }
+
+        .footer {
+            padding: 20px;
+            background: #333;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        @media(max-width: 768px){
+            .intro h1, .mission h2, .projects h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://storage.googleapis.com/benevolentmachines/bm_full2.svg" alt="BenevolentMachines.Org Logo">
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h1>Welcome to BenevolentMachines.Org</h1>
+            <p>Advancing Open-Source Tools for Data Science through Volunteer Efforts</p>
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>BenevolentMachines.Org is dedicated to fostering the development of open-source tools that empower the data science community. Our volunteer-driven initiatives focus on creating solutions that are accessible, innovative, and impactful.</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+
+            <div class="project">
+                <h3>Datamachine</h3>
+                <p>Datamachine is a pioneering framework that transforms the way Python notebooks are used in 
+                    cloud-based analytics and AI solutions. It enables the efficient combination and reuse of 
+                    notebooks for generating modern analytics, complex visualizations, and AI predictions. 
+                    Explore our <a target='_blank' href="https://pypi.org/project/datamachine/" style="color: #fac828;">
+                      Public Package</a> to learn more.</p>
+            </div>
+            <!-- Additional projects can be listed here -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 BenevolentMachines.Org</p>
+    </footer>
+</body>
+</html>

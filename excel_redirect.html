@@ -27,8 +27,8 @@
                 return key + "=" + params[key];
             }).join("&");
 
-            // Construct the final URL
-            var finalUrl = destinationPage + (additionalParams ? "&" + additionalParams : "");
+            // Check if the destination URL already contains a query string
+            var finalUrl = destinationPage + (destinationPage.includes('?') ? "&" : "?") + additionalParams;
             window.location = finalUrl; // Redirect to the final URL
         }
 
